@@ -1,0 +1,31 @@
+{
+  "name": "pderas/laravel-geocoder",
+  "description": "A laravel package to help interact with the google maps api.",
+  "keywords": ["geocoder", "laravel"],
+  "homepage": "https://github.com/PDERAS/laravel-geocoder",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "Reed Jones",
+    "email": "reed.jones@pderas.com"
+  }],
+  "require": {
+      "php": ">=7.0.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "PDERAS\\LaravelGeocoder\\": "src/"
+      }
+  },
+  "extra": {
+      "branch-alias": {
+          "dev-master": "0.0-dev"
+      },
+      "laravel": {
+          "providers": [
+              "PDERAS\\LaravelGeocoder\\LaravelGeocoderServiceProvider"
+          ]
+      }
+  },
+  "minimum-stability": "dev"
+}
