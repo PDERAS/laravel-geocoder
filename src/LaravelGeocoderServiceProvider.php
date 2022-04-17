@@ -1,5 +1,5 @@
 <?php
-namespace PDERAS\LaravelGeocoder;
+namespace Pderas\LaravelGeocoder;
 
 use Illuminate\Support\ServiceProvider;
 

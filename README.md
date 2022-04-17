@@ -13,7 +13,7 @@ composer require pderas/laravel-geocoder
 Publish the config, and fill in the appropriate fields in your `.env` file
 
 ```
-php artisan vendor:publish --provider="PDERAS\LaravelGeocoder\LaravelGeocoderServiceProvider"
+php artisan vendor:publish --provider="Pderas\LaravelGeocoder\LaravelGeocoderServiceProvider"
 ```
 
 ## Usage
