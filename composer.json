@@ -14,7 +14,7 @@
   },
   "autoload": {
       "psr-4": {
-          "PDERAS\\LaravelGeocoder\\": "src/"
+          "Pderas\\LaravelGeocoder\\": "src/"
       }
   },
   "extra": {
@@ -23,7 +23,7 @@
       },
       "laravel": {
           "providers": [
-              "PDERAS\\LaravelGeocoder\\LaravelGeocoderServiceProvider"
+              "Pderas\\LaravelGeocoder\\LaravelGeocoderServiceProvider"
           ]
       }
   },
